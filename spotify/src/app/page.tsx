@@ -56,7 +56,7 @@ export default function Home() {
 
           <div className='grid grid-cols-3 gap-4'>
             <a href='#' className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors mt-4'>
-              <Image src="/hj.jpg" width={104} height={104} alt="Capa do álbum" />
+              <Image src="/pin.jpg" width={104} height={104} alt="Capa do álbum" />
               <strong>Sertanejo</strong>
               <button className='w-12 h-12 flex items-center pl-1 justify-center rounded-full bg-green-300 text-black ml-auto mr-10 invisible group-hover:visible'>
                 <Play />
@@ -64,40 +64,40 @@ export default function Home() {
             </a>
 
             <a href='#' className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors mt-4'>
-              <Image src="/hj.jpg" width={104} height={104} alt="Capa do álbum" />
-              <strong>Sertanejo</strong>
+              <Image src="/gymm.jpg" width={104} height={104} alt="Capa do álbum" />
+              <strong>Gym</strong>
               <button className='w-12 h-12 flex items-center pl-1 justify-center rounded-full bg-green-300 text-black ml-auto mr-10 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
 
             <a href='#' className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors mt-4'>
-              <Image src="/hj.jpg" width={104} height={104} alt="Capa do álbum" />
-              <strong>Sertanejo</strong>
+              <Image src="/sun.jpg" width={104} height={104} alt="Capa do álbum" />
+              <strong>Livro: O sol é para todos</strong>
               <button className='w-12 h-12 flex items-center pl-1 justify-center rounded-full bg-green-300 text-black ml-auto mr-10 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
 
             <a href='#' className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors mt-4'>
-              <Image src="/hj.jpg" width={104} height={104} alt="Capa do álbum" />
-              <strong>Sertanejo</strong>
+              <Image src="/playlist.jpg" width={104} height={104} alt="Capa do álbum" />
+              <strong>Festa junina 13/06</strong>
               <button className='w-12 h-12 flex items-center pl-1 justify-center rounded-full bg-green-300 text-black ml-auto mr-10 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
 
             <a href='#' className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors mt-4'>
-              <Image src="/hj.jpg" width={104} height={104} alt="Capa do álbum" />
-              <strong>Sertanejo</strong>
+              <Image src="/english.jpg" width={104} height={104} alt="Capa do álbum" />
+              <strong>Inglês do Zero</strong>
               <button className='w-12 h-12 flex items-center pl-1 justify-center rounded-full bg-green-300 text-black ml-auto mr-10 invisible group-hover:visible'>
                 <Play />
               </button>
             </a>
 
             <a href='#' className='bg-white/5 group rounded flex items-center gap-4 overflow-hidden hover:bg-white/10 transition-colors mt-4'>
-              <Image src="/hj.jpg" width={104} height={104} alt="Capa do álbum" />
-              <strong>Sertanejo</strong>
+              <Image src="/studie.jpg" width={104} height={104} alt="Capa do álbum" />
+              <strong>Lady Gaga - As melhores</strong>
               <button className='w-12 h-12 flex items-center pl-1 justify-center rounded-full bg-green-300 text-black ml-auto mr-10 invisible group-hover:visible'>
                 <Play />
               </button>
@@ -108,29 +108,37 @@ export default function Home() {
           </div>
           <div className='grid grid-cols-8 gap-4 mt-4'>
             <a href='#' className='bg-white/5 flex flex-col p-3 rounded-md hover:bg-white/10'>
-              <Image src="/hj.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
-              <strong className='font-semibold mt-4'>Sertanejo</strong>
-              <span className='text-sx text-zinc-500'>Henrique e Juliano</span>
+              <Image src="/clt.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <strong className='font-semibold mt-4'>Home office</strong>
+              <span className='text-sx text-zinc-500'>By Madu</span>
             </a>
             <a href='#' className='bg-white/5 flex flex-col p-2 rounded-md hover:bg-white/10'>
-              <Image src="/hj.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <Image src="/sun.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <strong className='font-semibold mt-4'>Livro: O sol é para todos</strong>
+              <span className='text-sx text-zinc-500'>By Gaia</span>
             </a>
             <a href='#' className='bg-white/5 flex flex-col p-2 rounded-md hover:bg-white/10'>
-              <Image src="/hj.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <Image src="/gymm.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <strong className='font-semibold mt-4'>Gym</strong>
+              <span className='text-sx text-zinc-500'>By Madu</span>
             </a>
             <a href='#' className='bg-white/5 flex flex-col p-2 rounded-md hover:bg-white/10'>
-              <Image src="/hj.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <Image src="/studie.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <strong className='font-semibold mt-4'>Lady Gaga</strong>
+              <span className='text-sx text-zinc-500'>By Madu</span>
             </a>
             <a href='#' className='bg-white/5 flex flex-col p-2 rounded-md hover:bg-white/10'>
-              <Image src="/hj.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <Image src="/preto.jpg" className='w-full' width={104} height={104} alt="Capa do álbum" />
+              <strong className='font-semibold mt-4'>Planos Impossíveis</strong>
+              <span className='text-sx text-zinc-500'>Jads & Jadson</span>
             </a>
           </div>
         </main>
       </div>
       <footer className="bg-zinc-800 px-6 pw-6 border-t border-zinc-700 p-6 flex items-center gap-3 justify-between">
         <div className='flex items-center gap-1'>
-          <Image src="/hj.jpg" width={60} height={60} alt="Capa do álbum" />
-          <div className="flex flex-col">
+          <Image src="/music.jpg" width={60} height={60} alt="Capa do álbum" />
+          <div className="flex flex-col ml-4">
             <strong className='font-normal'>Arco Iris Preto e Branco - Ao Vivo</strong>
             <span className='text-xs text-zinc-400'>Jads & Jadson</span>
           </div>
